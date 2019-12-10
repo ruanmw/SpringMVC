@@ -15,7 +15,7 @@ public class HelloWorldController {
     @RequestMapping(value = "/world",method = {RequestMethod.GET,RequestMethod.POST})
     public String world()throws Exception{
         System.out.println("Hello SpringMVC");
-
+        System.out.println("===========");
         //跳转index.jsp
         return "index" ;
     }
