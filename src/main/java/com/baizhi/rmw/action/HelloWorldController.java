@@ -16,10 +16,6 @@ public class HelloWorldController {
     public String world()throws Exception{
         System.out.println("Hello SpringMVC");
         System.out.println("===========");
-        System.out.println("xxxxxxx");
-        System.out.println("Hello SpringMVC");
-        System.out.println("===========");
-        System.out.println("xxxxxxx");
         //跳转index.jsp
         return "index" ;
     }
